@@ -1,5 +1,5 @@
 **Data Structures Assignment**
-Write an ASP.NET Web Aplication (.NET Framework) in C# that demonstrates the use of a Stack, Queue, and Dictionary (Map). I want you to start trying to use GitHub for this assignment with your group.
+\nWrite an ASP.NET Web Aplication (.NET Framework) in C# that demonstrates the use of a Stack, Queue, and Dictionary (Map). I want you to start trying to use GitHub for this assignment with your group.
 
 Make sure you document your code. This might seem like a big program but it really isn't since a lot of the code is copied and reused. In fact, it might be a good idea as a group to divide up the work and then try to bring it all together into one project.
 
