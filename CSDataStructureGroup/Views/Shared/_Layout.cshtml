@@ -20,10 +20,15 @@
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
+                <ul class="nav navbar-nav"></ul>
             </div>
         </div>
+    </div>
+    <div>
+        <a href="@Url.Action("Index", "Stack")" class="w3-bar-item w3-button">Stack</a><br />
+        <a href="@Url.Action("Index", "Queue")" class="w3-bar-item w3-button">Queue</a><br />
+        <a href="@Url.Action("Index", "Dictionary")" class="w3-bar-item w3-button">Dictionary</a><br />
+        <a href="@Url.Action("Exit", "Home")" class="w3-bar-item w3-button">Exit</a><br />
     </div>
 
     <div class="container body-content">

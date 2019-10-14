@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
-namespace CSDataStructureGroup.Controllers
+​
+namespace DataStructure.Controllers
 {
     public class HomeController : Controller
     {
@@ -12,6 +12,11 @@ namespace CSDataStructureGroup.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+​
+        public ActionResult Exit()
+        {
+            return Redirect("https://www.byu.edu/");
         }
     }
 }
